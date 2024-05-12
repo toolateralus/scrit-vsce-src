@@ -1,0 +1,25 @@
+{
+  "name": "scrit",
+  "displayName": "scrit",
+  "description": "syntax highlighting and language server for scrit dynamic language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "scrit",
+      "aliases": ["scrit", "scrit"],
+      "extensions": [".scrit"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "scrit",
+      "scopeName": "source.scrit",
+      "path": "./syntaxes/scrit.tmLanguage.json"
+    }]
+  }
+}
