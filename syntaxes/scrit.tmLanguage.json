@@ -60,8 +60,22 @@
 				"function-arguments": {
 					"patterns": [
 						{
-							"match": "[^\\)]*",
-							"name": "meta.function-call.arguments.scrit"
+							"include": "#strings"
+						},
+						{
+							"include": "#numbers"
+						},
+						{
+							"include": "#keywords"
+						},
+						{
+							"include": "#operators"
+						},
+						{
+							"include": "#variables"
+						},
+						{
+							"include": "#constants"
 						}
 					]
 				}
