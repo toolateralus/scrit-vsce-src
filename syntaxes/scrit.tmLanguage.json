@@ -133,7 +133,7 @@
 				},
 				{
 					"name": "punctuation.accessor.scrit",
-					"match": "\\."
+					"match": "\\.|::"
 				}
 			]
 		},
@@ -145,7 +145,7 @@
 				},
 				{
 					"name": "keyword.",
-					"match": "\\b(type|struct|func|let|from|using|import|mut|const|match|default|_|delete|global)\\b"
+					"match": "\\b(namespace|type|struct|func|let|from|using|import|mut|const|match|default|_|delete|global)\\b"
 				},
 				{
 					"name": "keyword.control.flow.scrit",
